@@ -50,7 +50,7 @@ function yellowColor() {
     tekstInput.innerHTML = 'Dit is een gele kleur';
     mouseOverOff()
 }
-
+window.addEventListener('keyup', handleKeyUp);
 homeBtn.addEventListener('click', homeColor);
 redBtn.addEventListener('click', redColor);
 blueBtn.addEventListener('click', blueColor);
